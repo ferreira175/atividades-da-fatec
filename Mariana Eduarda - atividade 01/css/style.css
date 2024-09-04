@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: darkslategray; */
+}
+header{
+    display: flex;
+    background-color: rgb(51, 88, 136);
+    
+}
+#menucomlogo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+    
+}
+#logo{
+    padding: 20px;
+    padding-left: 60px;
+    flex: 1;
+}
+nav a{
+    margin-right: 10px;    
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: rgb(51, 88, 136);
+    transition: 0.5s;
+}
+#links{
+    flex: 1;
+    padding-top: 30px;
+    text-align: right;
+    padding-right: 60px;
+    width: 40%;
+    min-width: 56%;
+    
+}
+#primeira-secao{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 88, 136);
+    margin-bottom: 40px;
+}
+#intro{
+    padding-left: 60px;
+    flex: 1;
+}
+#img01{
+    padding-right: 60px;
+    flex: 1;
+}
+main{
+
+    padding: 60px;
+
+   
+}
+#secao02{
+    /* margin-left: 60px; */
+    /* background-color: rgb(100, 1, 1); */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    min-height: 200px;
+  
+    margin-bottom: 30px;
+    
+}
+#p1{
+    text-align: center;
+    padding-top: 90px;
+    flex: 1;
+    background-color: rgb(37, 55, 88);
+
+}
+#p2{
+    flex: 1;
+    text-align: center;
+    padding-top: 90px;
+    background-color: rgb(71, 143, 190);
+    
+}
+#p3{
+    flex: 1;
+    text-align: center;
+    padding-top: 90px;
+    background-color: rgb(106, 161, 197);
+}
+#tw{
+    background-color: rgb(102, 90, 173);
+    height: 35px;
+    padding-top: 10px;
+}
+footer{
+    background-color: rgb(76, 159, 207);
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    
+}
+footer a{
+    padding-left: 40px;
+    flex: 1;
+    text-decoration: none;
+    
+    
+    
+}
+footer p{
+    flex: 1;
+   
+}
